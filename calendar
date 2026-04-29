@@ -1,0 +1,5 @@
+import calendar
+a=int(input())
+b=int(input())
+res=calendar.calendar(a,b)
+print(res)
