@@ -1,0 +1,14 @@
+legs=int(input("Enter num of legs:"))
+heads=int(input("Enter total heads:"))
+flag=False
+for cows in range(0,heads+1):
+    hens=heads-cows
+    call_legs=cows*4+hens*2
+    if call_legs==legs:
+        flag=True
+        break
+if flag:
+    print("cows:")
+    print("hens:")
+else:
+    print("No slountion")
